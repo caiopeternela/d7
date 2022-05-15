@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.buser-logo {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+a {
+    color: #f11175;
+    font-weight: 700;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #f11175;
+    flex-direction: column;
+    gap: 17%;
+}
+
+.container-form {
+    width: 345px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.text-form {
+    padding-top: 20px;
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #424242;
+    margin-bottom: 3px;
+}
+
+
+.text-form-topo {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #424242;
+}
+
+.texto {
+    width: 350px;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 12px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: none;
+    padding-top: 20px;
+}
+
+.container-onibus {
+    margin-top: -100px;
+    margin-left: 15px;
+}
+
+.onibus {
+    width: 350px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.icone-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.icone-navbar {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+input {
+    width: 99%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: #747272;
+    font-size: 16px;
+}
+
+.icone-input {
+    background-size: 15px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.icone-circulo {
+    background-image: url('../img/oval.png');
+
+}
+
+.icone-local {
+    background-image: url('../img/location.png');
+}
+
+.icone-data {
+    background-image: url('../img/icons8-date-64.png');
+    background-size: 15px;
+}
+
+.botao {
+    margin-top: 15px;
+    background-color: #f11075;
+    border-radius: 10px;
+    height: 45px;
+    color: #fff;
+    background-image: url('../img/search-interface-symbol.png');
+    background-size: 18px;
+    background-position: 110px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+@media only screen and (max-height: 700px) {
+    .container-conteudo {
+        padding-bottom: 100px;
+    }
+}
