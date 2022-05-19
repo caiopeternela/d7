@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>D7</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <img class="buser-logo" src="https://dals0gb6i1pll.cloudfront.net/img/buser-horizontal-rosa.0109919.svg"
+                alt="Logo da Buser">
+            <a href="#">Entrar</a>
+        </header>
+    </div>
+    <main class="container-conteudo">
+        <div class="texto">
+            <p class="h1">Viagens de ônibus mais baratas que a passagem da rodoviária</p>
+            <p class="h2">Sem taxas, com segurança e preço justo</p>
+        </div>
+        <div class="container-form">
+            <form>
+                <span class="text-form-topo">Saindo de</span>
+                <input type="text" readonly="readonly" name="search" value="Digite uma cidade"
+                    class="icone-input icone-circulo">
+                <span class="text-form">Indo para</span>
+                <input type="text" readonly="readonly" name="search" value="Digite uma cidade"
+                    class="icone-input icone-local">
+                <span class="text-form ">Data de ida</span>
+                <input placeholder="Ida" class="icone-input icone-data" type="text" onfocus="(this.type='date')"
+                    onblur="(this.type='text')" id="date">
+                <span class="text-form">Data de volta</span>
+                <input placeholder="Volta" class="icone-input icone-data" type="text" onfocus="(this.type='date')"
+                    onblur="(this.type='text')" id="date">
+                <input class="botao" type="button" value="Buscar">
+            </form>
+        </div>
+        <div class="container-onibus">
+            <img class="onibus" src="img/onibus-buser-lado-maior.e009483.png" alt="Ônibus">
+        </div>
+    </main>
+    <div class="navbar">
+        <footer>
+            <div class="icone-footer">
+                <img class="icone-navbar" src="img/search-interface-symbol.png" alt="Lupa">
+                <span>Buscar</span>
+            </div>
+            <div class="icone-footer">
+                <img class="icone-navbar" src="img/public-transport.png" alt="Ônibus">
+                <span>Viagens</span>
+            </div>
+            <div class="icone-footer">
+                <img class="icone-navbar" src="img/wallet-passes-app.png" alt="Carteira">
+                <span>Carteira</span>
+            </div>
+            <div class="icone-footer">
+                <img class="icone-navbar" src="img/promotions.png" alt="Promoções">
+                <span>Promoções</span>
+            </div>
+            <div class="icone-footer">
+                <img class="icone-navbar" src="img/question.png" alt="Interrogação">
+                <span>Ajuda</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
